@@ -1,5 +1,6 @@
 Salario = float(input("Digite seu salário atual: "))
 
-Salario = Salario * 0.15
+SalarioReajuste = Salario * 0.15
+SalarioNovo = Salario + SalarioReajuste
 
-print("O reajuste do seu salár m 15% é de:", Salario)
+print("Seu salário antes do reajuste era de:",Salario, "E seu salário atual com aumento de 15% ficou de:",SalarioNovo)
