@@ -1,0 +1,1 @@
+## Peça ao usuário um número inteiro e exiba a tabuada de multiplicação de 1 a 10.
