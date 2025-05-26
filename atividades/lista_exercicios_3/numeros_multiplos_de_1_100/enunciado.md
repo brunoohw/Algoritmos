@@ -1,0 +1,1 @@
+## Escreva um programa que mostre na tela todos os números múltiplos de 3 no intervalo de 1 até 100.
