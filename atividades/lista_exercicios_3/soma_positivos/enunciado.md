@@ -1,0 +1,1 @@
+## Peça números ao usuário e vá somando apenas os positivos. O programa termina quando o usuário digitar um número negativo.
