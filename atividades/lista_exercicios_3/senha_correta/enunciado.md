@@ -1,0 +1,1 @@
+## Solicite uma senha ao usuário e continue pedindo até que ele digite a senha correta (ex: "1234").
