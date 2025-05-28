@@ -1,0 +1,5 @@
+## Criando uma Calculadora Interativa com Finalização por "="
+ Desenvolver um algoritmo de uma calculadora simples que permita ao usuário digitar uma sequência de números e operações matemáticas, realizando os cálculos conforme os dados são inseridos. O cálculo só deve ser finalizado e o resultado exibido quando o usuário digitar o sinal de igual (=).
+
+Requisitos do Algoritmo:O programa deve permitir que o usuário digite uma sequência de entradas, uma por vez (número ou operador).Os operadores válidos são: +, -, *, /.O programa deve processar os cálculos conforme os dados são inseridos, mas .O algoritmo deve validar as entradas e tratar possíveis erros (como divisão por zero ou entrada inválida).
+Após exibir o resultado, o programa deve perguntar se o usuário deseja realizar um novo cálculo.
