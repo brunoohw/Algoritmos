@@ -1,12 +1,15 @@
 Usuario = str(input("Digite seu usuário: "))
 Senha = str(input("Digite sua senha: "))
-Contador = 0
+Contador = 5
 
-if Usuario != "Bruno":
-    while Contador > 4:
-        Contador += 1
-        print(Contador)
-        print("Você digitou o usuário errado!")
-        Usuario = str(input("Digite seu usuário novamente: "))
-        Senha = str(input("Digite sua senha novamente: "))
-        
+while Contador > 1:
+    Contador -= 1
+    if Usuario != "Bruno" and Senha != "1234":
+        print(f"Você digitou o usuário errado! Tem mais {Contador}")
+        Usuario = str(input("Digite seu usuário: "))
+        Senha = str(input("Digite sua senha: "))
+    elif Usuario == "Bruno" and Senha == "1234":
+        print("Calculadora")
+    else:
+        print("Você gastou todas as tentavias!")
+
